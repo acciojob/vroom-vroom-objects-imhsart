@@ -19,6 +19,9 @@ class SportsCar extends Car{
 		super(make,model)
 		this._topSpeed = topSpeed
 	}
+	get topSpeed(){
+		return this._topSpeed
+	}
 	getTopSpeed(){
 		return this._topSpeed
 	}
