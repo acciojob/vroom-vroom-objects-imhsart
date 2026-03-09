@@ -4,6 +4,12 @@ class Car{
 		this._make = make
 		this._model = model
 	}
+	get make(){
+		return this._make
+	}
+	get model(){
+		return this._model
+	}
 	getMakeModel(){
 		return `${this._make} ${this._model}`
 	}
